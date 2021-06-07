@@ -1,0 +1,70 @@
+/* GENERAL STYLE */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/martin-may-LwnuRogVYJg-unsplash.jpg);
+    background-size: cover;
+    /* font-size: 10px; */
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 8em;
+}
+
+.container {
+    margin: 15vh auto;
+    max-width: 800px;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.key {
+    border: 2px solid black;
+    width: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    transition: all 0.07s;
+    background-color: rgba(22, 22, 22, .25);
+    ;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color:rgba(22, 22, 22, .25);
+    box-shadow: 0 0 1rem rgba(22, 22, 22, .25);
+}
+
+kbd {
+    display: block;
+    font-size: 3em;
+}
+
+.sound {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0rem;
+    color: whitesmoke;
+}
+
+/* COMMENTAIRES */
+/* L'élément HTML <kbd> représente une plage de texte en ligne indiquant la saisie
+     de texte par l'utilisateur à partir d'un clavier, d'une saisie vocale ou de 
+     tout autre dispositif de saisie de texte. Par convention, le user agent rend 
+     par défaut le contenu d'un élément <kbd> en utilisant sa police monospace, 
+     bien que cela ne soit pas requis par le standard HTML. */
+     /* SCALE = grossir de 10% */
